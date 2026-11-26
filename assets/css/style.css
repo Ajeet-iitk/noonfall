@@ -609,6 +609,14 @@ input[type="range"]::-moz-range-thumb{
   margin:24px 0 0; font-family:var(--font-display); font-style:italic;
   font-size:14.5px; color:var(--muted);
 }
+.credit-source{ margin:18px 0 0; }
+.credit-source a{
+  font-size:8.5px; letter-spacing:.28em; text-transform:uppercase;
+  color:var(--faint); text-decoration:none;
+  border-bottom:1px solid transparent; padding-bottom:2px;
+  transition:color .3s, border-color .3s;
+}
+.credit-source a:hover{ color:var(--accent); border-color:var(--accent); }
 
 /* toasts */
 #toasts{
